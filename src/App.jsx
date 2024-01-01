@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Header from "./components/Header"
 import Form from "./components/Form"
 import PatientList from "./components/PatientList"
+import Footer from './components/Footer'
 
 function App() {
   const [patients, setPatients] = useState([]);
@@ -41,6 +42,7 @@ function App() {
           deletePatient = {deletePatient}
         />
       </div>
+      <Footer />
     </div>
   )
 }
