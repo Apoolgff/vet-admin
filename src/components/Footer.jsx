@@ -12,7 +12,7 @@ const FooterContainer = styled.footer`
   position: fixed;
   bottom: 0;
   width: 100%;
-  max-height: 40px;
+  max-height: 45px;
 `;
 
 const IconContainer = styled.div`
@@ -28,7 +28,7 @@ const SocialLink = styled.a`
   font-size: 24px;
 
   &:hover {
-    color: #61dafb;
+    color: #61fbab;
   }
 `;
 
